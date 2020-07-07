@@ -50,6 +50,9 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1591738147182500
 ===
 ## Mod 2
 
+Hey guys- anybody else having an issue running bundle install on the lab?
+https://app.slack.com/client/T02MD9XTF/CUH4FCJRL/thread/CUH4FCJRL-1584396260.040100
+
 shotgun error:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1592336768085200
 
@@ -65,6 +68,9 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1592429055137100
 
 Rack-flash:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1592509847176300
+
+Hello World Lab:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1585864645319900
 
 Rails Application Basics:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1592572957191700
@@ -109,3 +115,24 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1593485060051400
 
 Adding bootstrap to Rail app created with `--skip-javascript`:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1593554507099000
+
+Faker:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1586555089049400
+
+Deploying page / yarn and package.json:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1587426807323500
+
+===
+## Mod 3
+
+forEach is not a function:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588097591094800
+
+
+book liker:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588116388121000
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588119100127300
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588121205134300
+
+Could not locate gemfile - Pokemon:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588197464168200

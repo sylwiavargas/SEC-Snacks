@@ -2,6 +2,23 @@
 
 ## Week 1 Day 1
 
+### Morning -- env setup
+@here Good morning all! :sunny:
+Here are the guidelines for getting your environment set up:
+https://help.learn.co/en/articles/900121-mac-osx-manual-environment-set-up
+After you’ve set up the environment, run this code in your terminal to check if everything has been set up correctly:
+ bash <(curl -s https://raw.githubusercontent.com/brewchetta/flatiron-manual-setup-validator/master/manual-setup-check.sh) 
+When you’re done, help out your neighbors! After everyone is set up, we’ll deploy a pairing lab for you all to work on.
+Also, please remember to add your full name and a picture to Slack and just name to your Learn.co profile!
+(please add an emoji if you’ve read this!)
+
+### Switching tracks
+Just to reiterate, if you are finished with setting up your environment and the survey, you can start the readings on learn.co. Do not attempt the Deploy on Day 1 lab yet. That has to be done with your table.
+11:19
+Also, in case you are not familiar on how to switch tracks on learn.co
+https://flatiron-school.slack.com/files/UHBJ9SLFR/FV39L0JAH/switching_tracks.mov
+
+
 ### After lecture
 Congrats on your first lecture! A few lecture notes:
 ✨ when in pry:
@@ -93,6 +110,39 @@ str.split(/(?<=i)(.*)/)
 2.  [a Regex practice tool](https://regexcrossword.com/) for those nights when you can’t sleep and need something to help you do that
 Please don’t trouble yourself with learning Regex or even about Regex. You don’t need it currently, if ever. Just know that if you ever need to find a pattern, you can use Regex — and google your way through it ❤️
 
+### Terminal commands reference
+@here
+Terminal Commands References
+- `ls`  lists all files in the current directory
+- `cd <directory_name>`  change directory (pressing tab as you are typing the directory name will auto-fill)
+- `cd ..`  navigate up one directory level
+For reference: https://wsvincent.com/terminal-command-line-for-beginners/
+Github Walkthrough
+- fork  a lab
+- clone  a lab by copying the link
+- from a terminal, `git clone <link>`
+- from VSCode, you can open the cloned directory by `code <link>`. Should open a new VSCode window.
+- `git add .`  add changes made
+- `git commit -m "message"` commit changes
+- `git push`  push changes to github
+- `learn submit` does `git add .` , `git commit -m "done"`, `git push`  all in one
+- `git pull` pulls changes that were made to github onto your device
+Branching Walkthrough
+- `git branch` check which branch you're currently on
+- `git checkout -b <branch_name>` create a new branch
+- `git checkout <branch_name>` switch do a different branch
+- to merge a branch to master, make sure you're on master branch. Run `git merge <branch_you_want_to_merge>`
+
+### EOD
+Thank you all for your patience, your engagement, your questions, and your willingness to try new things today! Please don’t forget to take breaks and call your day done at some point — that can be hard when you’re working from home.
+And before you all come tomorrow, quick reminder of the Slack etiquette at Flatiron School:
+show that you’ve read a message by reacting an an emoji
+show your enthusiasm with a good variety of emojis
+Here’s an example from another cohort:
+https://files.slack.com/files-pri/T02MD9XTF-FUYNML40Z/screen_shot_2020-03-11_at_6.31.45_pm.png
+@here 
+
+
 ---
 ##  Week 1 Day 3
 
@@ -106,7 +156,25 @@ Please don’t trouble yourself with learning Regex or even about Regex. You don
 ✨ overview of Ruby variables through an analogy: https://medium.com/swlh/hitchhikers-guide-to-ruby-variables-1b4cf83d540c
 ✨ adding elements to an array is not changing its data type or memory path so you’re not mutating it
 ✨ when initialized, an array is given a memory path, no matter how many elements it has, even if it is empty; because of that, Ruby is not throwing errors when you’re adding elements to the array
+✨ Does it matter in which order you put the instance methods in?
+Order of instance methods does not matter but it’s would be helpful if you developed your routine with regards to methods you write — it would be so much easier/automatic for you to remember what methods to include.
+✨ Do you need `#initialize` if you use `attr_accessor`?
+Yes, you do need #intialize if you want to create a new tweet at any point + if you need to change the data after it’s initialized, you’ll also need a writer
 @here 
+
+### Message everyone together
+Hey folks!
+Please please please: if you have a general question or just need help message coaches and the instructor :fire: together :fire:.
+If you want to talk specifically to one of us, message just the one person.
+Otherwise, we are running into situations when one of us is waiting on a call for you not knowing that you’re on the call with the other person. Time and our attention are limited  remotely so please respect it.
+@channel
+
+### Using pry
+@here :bangbang: Pro-tip: :bangbang:
+Hey folks! If you want to run some ruby code to test it out (for example during :dq:), you have three options:
+- in your terminal run `irb`  and play in the console;
+- better yet, you can create a file with a `.rb` extension, then run it in your terminal by ruby `./yourfilename.rb`  (just change the filename + make sure you’re in the same directory); if you wanna use `binding.pry`, remember to put `require 'pry'` at the top of the file and then insert `binding.pry` at the penultimate line of the file (followed by 0 on the last line), or in a method (but then invoke the method!)
+- or, open `repl.it` and create a new Ruby repl — it’s just a playground where you have both the file and the terminal (remember to save the file before running it) + you can add more files; to use `binding.pry`, you need to do a bit of a setup and is apparently dependent on the browser version
 
 ### Method chaining
 On the question of whether you can chain methods to the end of the ruby block, the Ruby style guide recommends against it and shows preference for the inline (or {...} ) syntax for chaining:
@@ -177,13 +245,69 @@ How to get updated/new lecture code?
 Here are Stack Overflow guidelines on asking a good question, which became the industry standard
 https://stackoverflow.com/help/how-to-ask
 
+### Calendar
+@here hey folks, if you’re using google calendars for reminders and general organization, add this one to your repertoire — it’s the remote events calendar with awesome speakers:heart: we’ve integrated it into learn so if your primary source of day schedule is learn, you don’t have to worry :slightly_smiling_face:
+https://calendar.google.com/calendar?cid=ZmxhdGlyb25zY2hvb2wuY29tX241aDBmbHNkOGY0aWU1NzNtZnY2bTg1cm4wQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20 
+
 ##  Week 1 Day 5
 
+### Morning
+A reminder:
+Everybody, don’t panic!
+If you feel confused and don’t know how stuff connects to each other, please know that:
+- this is standard. every cohort people struggle with this day and this lecture — it is a deep dive and it is so for a reason;
+- please trust our method — there have been many students before and they did graduate and did find jobs;
+- the confusion and the feeling of being overwhelmed is there for a reason: we want to prep you for post-program job interviews where you will have moments like this and we want to make sure that you handle them well :slightly_smiling_face:
+WE GOT YOUR BACK :heart:
+@here
+
+### Pretzel Colon
+:heart: :heart: :heart: :heart:  YOU ASK - WE EXPLAIN: WHAT IS THAT PRETZEL COLON (&:) THING?!  :heart: :heart: :heart: :heart:
+It’s just a different (shorter) syntax, called proc. There are three ways to write methods like map. See that the code below:
+```ruby
+Participant.all.map do |participant|
+   participant.name
+end 
+```
+is the same as:
+```ruby
+Participant.all.map{|participant| participant.name}
+```
+and that’s same as:
+```ruby
+Participant.all.map(&:name)
+```
+
+### Afternoon
+@channel Now that you came victorious from the first week and know what bootcamp life is about, are are ready to pick a name that will represent us. This is how it will go:
+- TODAY-MONDAY: submit ideas in comments to this post
+- MONDAY-THURSDAY: voting
+- FRIDAY: celebrating new name :heart:
+Some examples of previous cohorts’ names:
+- A Pry Called Quest
+- Fruit-Snack Developers
+- Enumerati
+- “cheese” (it’s a pun -> string of cheese :smile: )
+- Don’t go JSON waterfalls
+- Pry Babies
+- French Pries
+All tech-related puns are welcome!
+
 ### EOD
-What to do if you feel overwhelmed and behind in labs?
--> First and foremost: this is totally normal! You are enrolled at a top-tier "Software Engineering Immersive Bootcamp"; this is a normal way to feel the first week!
--> Each section has fundamental material, these are usually the topics that have a reading immediately followed by a lab. Usually at the end of each section there will be an 'Advanced Lab', these are still beneficial but of less utility to you than other fundamental topics from other sections you may have not gotten to yet. I would suggest doing 80% of each section and finishing everything rather than doing 100% of only 80% of the labs.  Keep in mind: the first week is the hardest and you've all made it this far  As we go froward you will get better with the tempo and pace of program and better develop strategies to excel as a result. Be patient yet persistent and keep asking as many questions as you may need, we here to get you there!
-See you all Monday!
+:sparkles::sparkles::sparkles: Congratulations, everybody, on powering through this first week with kindness and grace :sparkles::sparkles::sparkles:
+You are all such a jolly bunch — I’ll miss you over the weekend! 
+This weekend focus on:
+- building your process so even in the moments of great stress you can fall back on what steps you usually take;
+- becoming comfortable with binding.pry;
+- trying to google as much as possible just to get into a habit;
+- deciding if a lab is talking about many-to-many or one-to-many;
+- time yourself and see what gets you stuck to  find a way to quickly get unstuck later :)
+Most importantly, please rest!
+What to do if you feel overwhelmed?
+:sparkles: First and foremost: this is totally normal! You are enrolled at a top-tier “Software Engineering Immersive Bootcamp”; this is a normal way to feel the first week!
+:sparkles: If you feel there’s too much material to cover, read the “readme” labs just to familiarize yourself with key concepts and terminology. Try to identify all the points of confusion/frustration and convert them into a question (this skill will be SO USEFUL in your professional life later on). Ask these questions during the lecture.
+:sparkles: Each section has fundamental material, these are usually the topics that have a reading immediately followed by a lab. Usually at the end of each section there will be an ‘Advanced Lab’, these are still beneficial but of less utility to you than other fundamental topics from other sections you may have not gotten to yet. I would suggest doing 80% of each section and finishing everything rather than doing 100% of only 80% of the labs.  Keep in mind: the first week is the hardest and you’ve all made it this far  As we go froward you will get better with the tempo and pace of program and better develop strategies to excel as a result. Be patient yet persistent and keep asking as many questions as you may need, @Rei Reynoso (He/Him) and I are here to get you there!
+ :sparkles::sparkles::sparkles: do something fun this weekend  :sparkles::sparkles::sparkles: 
 
 ### Weekend message
 @here Are you enjoying Ruby? Here are some newsletters that bring joy:
@@ -202,6 +326,14 @@ read about it: https://thoughtbot.com/blog/meowifier-a-hiss-tory-lesson
 ===
 ##  Week 2 Day 1
 
+### Morning
+:sparkles: :sparkles: :sparkles: OUR COHORT NAME POLL IS OPEN! :sparkles: :sparkles: :sparkles:
+Vote today for the first round: https://www.polltab.com/bracket-poll/ltoH3lFsb8
+:bangbang: Vote for your favorites in each of the pairs. :bangbang:
+Remember, this name will represent you for the next 14 weeks and until eternity!
+@channel
+
+
 ### If / else
 Hey folks! Something I noticed many people do but is redundant is the following code:
 ```ruby
@@ -217,7 +349,87 @@ This can be reduced to just: `courses.length > 2 `
 because the condition itself already evaluates it to true or false.
 ✨ **tl;dr: skip conditionals if your “action” is “return true” or “return false”**  ✨ 
 
+### Afternoon
+:question: :question: :question: :question: :question: :question:  What is: <=> spaceship operator :question: :question: :question: :question:
+Do you know that you can write `.sort` in the following manner:
+```ruby
+paintings.sort do |a, b|
+ a <=> b
+end
+```
+The `<=>`, or spaceship operator :alien: , is a shorthand for:
+```
+  if a < b then return -1
+  if a = b then return  0
+  if a > b then return  1
+  if a and b are not comparable then return nil
+```
+You could write also this:
+```ruby
+paintings.sort do |a, b|
+ if a < b
+   return -1
+ elsif a = b
+   return 0
+ elsif a > b 
+   return 1
+ else 
+   return nil
+ end
+end
+```
+
+## Week 2 Day 2
+
+### Before lunch
+@channel :hamburger: :hamburger: :hamburger: :hamburger:  GO TO LUNCH EVERYONE! :hamburger: :hamburger: :hamburger: :hamburger:
+You deserve a break. Even if you don’t feel like it, trust me. We have seen enough burnt out students to tell you confidently that lunchtime is there for a reason. Make sure to not-code for at least 45 minutes.
+
+### Prepping for CC
+@here Hey all, in preparation for the code challenge tomorrow. Focus on the following topics/concepts:
+- Understanding and recognizing how to set up a "one to many" and "many to many" relationship
+- Knowing when to effectively apply .find, .select, .map methods
+- Using attr_reader, attr_accessor, attr_writer when appropriate
+- Recognizing and understanding which methods/variables should be instance and which class ones
+- Obeying the Single Source of Truth principle
+
+### Lyft Mock Code challenge review
+@channel I have just coded this code challenge so you can see how I was approaching it. The video is still processing but should be done promptly (in like 30 mins because it’s short)
+:film_projector: https://youtu.be/2qFb3ANtM88
+PS: This is the first time I was recording myself coding so all feedback (DM, please) is very welcome so in the future I could do it better!
+
+### Boating School review
+@here
+Folks curious what my process and structure looks like wen approaching a new lab:
+Here’s a review I ran of the Boating School lab
+:tv: video: https://youtu.be/ztmwIBx97pM
+whiteboard: https://files.slack.com/files-pri/T02MD9XTF-F0103QQ5R6Y/screen_shot_2020-03-16_at_6.38.17_pm.png
+
+### Art Gallery Review
+Art Gallery Review
+Code: https://github.com/reireynoso/ruby-oo-relationships-practice-art-gallery-exercise-nyc04-seng-ft-030920
+Video: https://youtu.be/LRQof74VF8Y
+
+### EOD
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+I usually see students a bit overwhelmed with the process of approaching a new lab. I am a very anxious person and I think I passed the code challenges because I developed good processes in each language. I thought I’d outline my process here in case someone may find it helpful:
+What I do when I start a new Ruby lab (or project):
+Skim the readme — just to familiarize myself with the names of classes and methods; here I’m not reading for understanding!
+Read the readme in depth and as I read, draw the domain model; I’d mark also all the class and instance methods and attributes; I’d also rewrite the deliverables to Sylwish so I don’t have to read 100 words but just 3;
+Create the files and classes + copy over the specific deliverables for each class so I don’t have to switch back and forth between the class and the readme; in each file, I’d order the deliverables from “eacy” to “difficult”
+Fill each class with initialize, attr and all
+Create seed data -> at least 2 instances for each class + like 5 for the joiner model; rememebr to create the joiner the last because it depends on the other two models!
+TEST THE DATA -> throw in binding.pry in your seed data file (at the end) and call e.g. Student.all, School.all, School.all.first, Student.all.last
+Add one method at a time (from the easiest to the least easy) and TEST IT EACH TIME.
+Misc:
+If some phrasing is unclear, I’d write a comment with my interpretation of the wording and create the method according to my understanding
+If I googled something, I’d usually also put the link to the blog or stack overflow in the comment because honesty and wholesomeness is more important and more appreciated than getting it right on your own
+@channel
+
 ## Week 2 Day 3
+
+### After CC
+you’re all GREAT :hearts:  I know this is a nervous time and a nervous day. Take some deep breaths, be proud of the hard work you’ve put in, and work on SQL labs
 
 ### SQL
 Don’t you love the all-caps SQL expressions? :smile: Here's a little trivia blog post about the syntax:
@@ -246,10 +458,40 @@ Cheat Sheet for directory hierarchy etc.  https://dev.to/jbshipman/activerecord-
 If you've finished all the labs, you can watch this video tutorial that shows you all the git basics that you'll need for Project Week :github:
 https://youtu.be/fmF19_TvplU
 
+### Ruby fun time
+:ruby:  Ruby fun time! :ruby:
+In your terminal, run this:
+`brew install cowsay && brew install lolcat`
+Then, run this:
+```
+echo  "The goal of Ruby is to make programmers happy. I started out to make a programming language that would make me happy, and as a side effect it's made many, many programmers happy.
+I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language. 
+-Yukihiro Matsumoto" | cowsay -f dragon | lolcat 
+```
+
+### Ruby fun time 2
+Now, check out this:
+`brew install fortune`
+And run this:
+```
+fortune | cowsay -f stegosaurus | lolcat 
+```
+
 ### Project guidelines announcement slackbot message
 Here are the guidelines for the project: https://learn.co/tracks/module-1-web-development-immersive-3-0/ruby/module-1-projects/module-1-final-project-guidelines. 
 Here is document for project pitch: https://docs.google.com/document/d/1GfTDCwFGCAnvEhxhzfwbd4OHJZCQgsii0PLX6x_QCMA/edit. Make copy of this document and send it us on Monday before your project approval.
 Visit LINK to see your assigned groups.
+
+### Welcome to project Week message
+:sparkles:  :sparkles: WELCOME TO PROJECT WEEK! :sparkles: :sparkles:
+Before you start coding, we want you to:
+:sparkles: think through your app;
+:sparkles: copy this project pitch template into your own document and fill it out;
+:sparkles: if you’re working in a pair, make a copy and fill out the pair-programming contract with your pair;
+:sparkles: once you’re done with it, send these documents in a message to Graham+Rei+me (and your partner, if you’re working in pairs); if we have any further questions, we’ll send you a message or get on a call with you :heart:
+You can start coding only once you’ve gotten our approval.
+What questions do you have about this process?
+@channel
 
 ### Module 1 sample projects
 Module 1 sample projects: (GitHub repo | Video)
@@ -259,6 +501,16 @@ https://github.com/pahoffart25/module-one-final-project-guidelines-houston-web-0
 https://github.com/DrVonDevious/PokeCli | https://youtu.be/-bgkli4to2Q
 https://github.com/GianMoran/module-one-final-project-guidelines-houston-web-012720		 | https://www.youtube.com/watch?v=yZUel6mHJjY
 https://github.com/SteRobWms/module-one-final-project-guidelines-houston-web-012720		 | https://youtu.be/_Bkc0ABOoy4
+
+### Don't panic message
+If you feel overwhelmed and paralyzed:
+:sparkles: don’t! Remember that this is standard and you’re in good hands;
+:sparkles: ask yourself what would help you get unstuck and act on it — ask instructors for clarification, ask a colleague to brainstorm with you, take a break and stretch;
+:sparkles: you will see some app ideas today and you’ll get a better sense of what’s asked of you.
+:bangbang::bangbang: Also, here’s a readme and a repo I created with a clear outline what to do step by step :bangbang::bangbang:
+https://github.com/sylwiavargas/ruby-cli-setup
+It already has the file structure to help you get started, some blogs to help you out and some of my favorite fun gems mentioned :heart:
+@here
 
 ===
 ## Week 3 Day 1
@@ -287,7 +539,31 @@ You can override the pluralization by extending the Inflector class:
 - https://medium.com/@anna7/ruby-on-rails-pluralization-b3927de2ca8e
 @here
 
-## Week 3 
+## Week 3 Day 4
+
+### Morning
+Today is a good day to get any last bug fixes into your app. Tomorrow, any code you write or commit should be on a branch. Only merge it into your master branch if you have tested it exhaustively. It’s ok if you run into a bug while you’re presenting (it hasn’t killed me yet) but it’s always nice if your code works (I’ve found) :wink:
+Note for tomorrow: project presentations will be tomorrow from 3pm-4pm! We’ll rotate sharing screens on a zoom call — no need to do anything too formal, just show us all what your app can do!
+
+--- 
+
+## Week 3 Day 5
+### Morning
+@here If you all want to make extra sure that your apps work —ask someone else to break it. And while you’re breaking it, check how the app handles non-standard input (e.g. “What’s your name?” 13243) or the input in different format than suggested. Give feedback.
+Also, ask each other for comments on the code structure! Be each other’s reviewers. You’re not competing, you’re growing together :heart:
+
+### Afternoon
+Here’s an awesome talk by Scott Hanselman (Microsoft) about a CLI he built: artificial open-source pancreas to help his diabetes:
+https://slideslive.com/38918256/solving-diabetes-with-an-open-source-artificial-pancreas
+
+
+---
+## General Week 3 
+
+### Comments in code
+Also, a piece of good advice: try to include comments in your code so that it’s going to be easy for you to later find code responsible for the feature you want to change:
+https://flatiron-school.slack.com/files/UH9S72R6C/F0105SBG1FB/screen_shot_2020-03-20_at_4.34.51_pm.png
+
 
 ### Github and project week
 
@@ -312,6 +588,28 @@ We use `git projects` (instead of trello or asana) and git issues. We do stand u
 - A cli starter repo, which basically gives you a basic file organization that I created to help students start somewhere :slightly_smiling_face: I also mention some helpful gems, APIs and trick in the README . Sharing in case it’s helpful: https://github.com/sylwiavargas/Ruby-CLI-Setup
 - Adding animations to your CLI: https://medium.com/better-programming/add-an-animation-or-a-giph-to-your-ruby-cli-29952e8c46ea
 @here 
+
+### Commit to github
+@channel a friendly reminder: you want to keep your github green so commit often and push every now and then (at least once a day).
+https://files.slack.com/files-pri/T02MD9XTF-F010NF3VCKZ/68747470733a2f2f692e696d6775722e636f6d2f706946495266382e706e67.png
+- Commit your code every hour or every feature you’ve built. This is to show your employers that you have been working hard these three weeks. Also, to retrieve your code in case you made a major error or something horrible happened to your computer;
+
+If your repo is a fork from e.g. the lab or the setup repository, your github contributions won't count. However, fear not! Do this:
+1. On your local repo (the one on your computer) do `rm -rf .git`  —this removes git tracking
+2. On your github, create a new repo with the name of your app and connect the local repo with this one, here’s a walkthrough: https://medium.com/@kmarks2013/git-init-a-how-to-abc303693aba
+3. If you’re working with a partner, add them as collaborator
+It sounds like a lot but it will take you 5 minutes
+
+Here’s more information on how Github counts contributions: https://help.github.com/en/github/setting-up-and-managing-your-github-profile/why-are-my-contributions-not-showing-up-on-my-profile
+@channel
+
+### Github username problem
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+@here Hey folks! I just crawled through your githubs to check how you all are but also if github is counting your contributions. I’ve reached out to everyone who had this possible problem but I just want to make you all vigilant against this small mishap.
+So, if you ever see that someone is pushing changes as “github username” or anything that’s not their username (see below), be a good folk, and tell them to do step 2 of this setup again: https://github.com/learn-co-curriculum/environment-mac-os-catalina-setup
+
+### PEP Reminder
+Ask us questions ONLY after you have googled, and asked your colleagues, all-about-code or stack overflow; before coming here, send us a message describing what the problem is, and what you’ve googled so far; 
 
 ### Daily checkins doc
 (this is for the yale cohort, create a copy)
@@ -347,6 +645,38 @@ Hey Folks! In case you feel like you don’t know where to start with the CLI or
 :film_projector: video (pt2): https://youtu.be/mwcRjASeUFI
 :space_invader:code: https://github.com/learn-co-students/nyc-dumbo-web-111819/tree/master/10-hashes-and-the-internet
 @here 
+
+### Passing data between classes in the project
+Question: How can I pass around instances between classes?
+FIRST APPROACH: invoke the next method in the one where you find the dog object
+```ruby
+def method_that_returns_a_dog_object
+  # some code
+  dog = Dog.all.find{|dog| dog.name == "fafik"}
+  method_that_needs_this_dog(dog)
+end
+def method_that_needs_this_dog(dog)
+  #do something with the dog
+end
+```
+SECOND APPROACH: have one method return the dog object and then save its return value to a variable in another method
+```ruby
+def method_that_returns_a_dog_object
+  # some code
+  dog = Dog.all.find{|dog| dog.name == "fafik"}
+  return dog
+end
+def method_that_needs_this_dog
+  dog = method_that_returns_a_dog_object
+end
+```
+@here
+
+### initialize spelling error
+When you’re trying to fix an error for hours just to realize that…
+https://flatiron-school.slack.com/files/UH9S72R6C/F010AFQRZ98/screen_recording_2020-03-24_at_2.13.42_pm.mov
+If you find yourself typing some words wrong over and over, see this message from @Ian Hollander (he/him):
+https://flatiron-school.slack.com/archives/CQ0R7V08Y/p1574455063078700
 
 ### Reseting the id incrementation
 :ruby: problem: seeding causes incrementation of the id’s :ruby:

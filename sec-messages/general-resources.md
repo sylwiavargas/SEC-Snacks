@@ -13,6 +13,9 @@ Personal empowerment protocol:
 Here are Stack Overflow guidelines on asking a good question, which became the industry standard
 https://stackoverflow.com/help/how-to-ask
 
+### MOD1 reminder
+Ask us questions ONLY after you have googled, and asked your colleagues, all-about-code or stack overflow; before coming here, send us a message describing what the problem is, and what you’ve googled so far; 
+
 ### Example of questions
 @channel general announcement:
 When you guys slack DM us, please just write the whole message/problem at one take instead of
@@ -24,12 +27,22 @@ When you guys slack DM us, please just write the whole message/problem at one ta
 It’s just easier to manage messages if you just say what’s on your heart  so, in the perfect world you’d say:
 “Hey, #{staff.name}! Here’s a problem I have: #{student.problem}. It’s this lab: #{lab.title}, #{lab.url}. So far, I’ve tried these solutions: #{idea_one}, #{idea_two}. Here is the screenshot/github link/screen recording. My goal is #{student.goal}. Could you please help? Thank you!”
 
-### Reminder
+### MOD2 Reminder
 Hey everyone! Quick note -- We love helping you all, and seeing all the amazing projects you're building, but by following the protocol, it becomes easier for us to help multiple groups at once when we know:
 what the error is
 what you tried (so we don't ask you to try something you've already tried)
 what is the expected behavior
 not saying to post in the channel for the project, message us directly! but please try to outline the full scope of the project when messaging us for help :pray:
+
+### MOD 4 Reminder
+welcome to MOD4. From now on, the staff will be putting a lot of emphasis on implementing Personal Empowerment Protocol to make sure that you’ll enter MOD6 with a blast. These are the steps you should take before asking us for help:
+1. Read the error or use console.log/debugger to identify WHAT and WHY this is not working
+2. Google the problem (you should spend 30-45 minutes)
+3. Ask a classmate (x2 15 minutes each)
+4. If it is a question that is not pertaining to the labs but e.g. your side project, ask all-about-code or Twitterverse
+5. Ask an instructor or a coach
+If you do come up to us, we expect you to tell us the following: “This is the component tree (have it drawn). This is the error I am having. I have googled this and that, console.logged/used debugger here and here, and tried to solve it with this and that person. What am I missing?“.
+
 ---
 
 ## Before pair programming
@@ -63,6 +76,11 @@ Flatiron/
 
 ## Coding fluff
 https://twitter.com/deniseyu21/status/1112494446040489984
+https://files.slack.com/files-pri/T02MD9XTF-FV38QJU12/p51embziw9j41.jpg
+> “As soon as we started programming, we found to our surprise that it wasn’t as easy to get programs right as we had thought. Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs.”
+— Maurice Wilkes, 1979 (edited) 
+And also:
+> In trying to find a program bug, it is far more important to understand what your program is doing than to understand what it isn’t doing.
 
 ## Notes
 I noticed some of you take notes in google docs or Apple’s notes, which maybe is a suboptimal experience when it comes to writing code. I personally use Boostnote (free), which allows you to take notes and embed code. Here are some other options: https://www.makeuseof.com/tag/best-note-taking-tools-programmers/
@@ -174,3 +192,99 @@ https://www.youtube.com/watch?v=f1dnocPQXDQ
 For you all Mondrian fans (and CSS aficionados), here’s a great video on responsive design using Mondrian’s painting as an example:
 Here’s the video (13 min) - https://www.youtube.com/watch?v=qNtJ5p3h2A4&list=PLbSquHt1VCf1x_-1ytlVMT0AMwADlWtc1&index=3
 And the page that gets built (fun to play with) - https://labs.jensimmons.com/2017/01-011D.html
+
+## Podcasts
+Here’s a list of podcasts that may make your commuting more pleasant:
+https://selftaught.blog/programming-podcasts/
+
+
+## Slack channels for entertainment
+#nyc-dumbo-lgbtqia :point_right: queer-identifying people
+#nyc-dumbo-poc :point_right: people who identify as people of color
+#nyc-dumbo-gamers :point_right: folks who love a good video game (or heck, let's say board games while we're at it)
+#nyc-dumbo-bikers :point_right: mostly me talking about my bike commute, but in the warm weather we plan bike rides!
+#nyc-dumbo-soggy-bottoms :point_right: fans of great british baking show
+#flatiron-en-espanol
+#nyc-dumbo-español 
+
+
+## Github username problem
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+@here Hey folks! I just crawled through your githubs to check how you all are but also if github is counting your contributions. I’ve reached out to everyone who had this possible problem but I just want to make you all vigilant against this small mishap.
+So, if you ever see that someone is pushing changes as “github username” or anything that’s not their username (see below), be a good folk, and tell them to do step 2 of this setup again: https://github.com/learn-co-curriculum/environment-mac-os-catalina-setup
+
+## Learn Git
+Here’s an awesome tool that helps you find a git command you need: https://gitexplorer.com/
+and a game: https://learngitbranching.js.org/
+
+## Blogs 
+@here Hey everyone! I just wanted to update y'all that we will be starting BLOGS next week.
+The requirement is for everyone to write a total of four blogs.
+A readme was released a while ago under `Module 1 - Immersive Course Logistics -> Maintaining a Blog` that covers why we blog and the benefits.
+**What Platform Can I Use for Blogs?**
+There are many resources/platforms you can use to write your blogs on. But the two platforms frequently used are:
+- Medium
+- Dev.to
+**When Are My Blogs Due?**
+The blog schedules can be found on learn.co. It is located at the bottom of the page. When your blog is due, you will be presenting to the class. The general approach to presenting is showcasing the blog on the class projector and talking about what you have learned. To accommodate for the remote setting, you will screen share your blog and talk about it on Zoom. You will have a total of 5 minutes (3 minutes for sharing and 2 minutes for questions) to present. We encourage you to slack out your blogs to this channel so others can clap for them. Otherwise you can also slack them to your instructors.
+**What Topics Can I Write About?**
+The topics should be related to code or technology in general. From previous students, blog topics included:
+- Concepts they have learned in the mod.
+- A guide on how to implement features into an application
+- New technologies they have been researching/exploring
+**Sample Blogs**
+Blogs that previous Flatiron students have written:
+1) https://medium.com/@baruchphillips/blog-ruby-class-instance-and-local-variables-7f7aefa6faf3
+2) https://medium.com/@rxye91/activerecord-associations-36e049e733bb
+3) https://medium.com/@anniezheng.anniee/array-iteration-in-ruby-41e05cdb7b0e
+
+## Blogs - continued
+@channel to everyone who’s asking me which blogging platform I prefer (Dev or Medium) —view this on a wide screen:
+——————————————————————————————————————————————————————————-
+CATEGORY        |                               MEDIUM                                |                                  DEV                                   |
+——————————————————————————————————————————————————————————-
+community         |     big, impresonal crowd, sometimes trolls    |     supportive, real community, great crowd |
+——————————————————————————————————————————————————————————-
+reach                   |        there are more users  on Medium           |                 fewer users but great algos          |
+——————————————————————————————————————————————————————————-
+comments          |                                 none or trolling                 |                  I usually learn something              |
+——————————————————————————————————————————————————————————-
+monetization     |       you can publish with publications             |      none, it’s all open source                          |
+——————————————————————————————————————————————————————————-
+other perks       |      I got some conf tix and some invites          |    they reward viral blogs by swag — I have  |
+                           |        for collaboration from Medium readers   |     a tshirt, stickers and hoodies and love it  |
+——————————————————————————————————————————————————————————-
+Dev is much more community-oriented and super-supportive. In its mission to further accessibility, it’s also entirely open source.
+Medium is very impersonal but you can make bucks on it.  You can make your articles accessible to everyone if you don’t join metered paywall.
+I  post on both:
+Medium is for JS and React
+Dev for Ruby and Rails and other trivia
+I sometimes cross-post although that’s frowned upon from Medium ¯\_(ツ)_/¯
+
+
+Also, Medium gives off the impression that it’s more official and professional. What I see in the dev world is that the most amazing devs have their own blogs and otherwise, they post on Dev even though they all started on Medium. The metered paywall has rubbed the community really in a wrong way. However, no one would frown at you if you publish at Medium. Blogging is really awesome so the fact that you blog is already cool.
+
+Lastly, layout:
+Medium does everything for you
+Dev uses markdown (what you use in readmes) so it’s useful and also later easier to scrape for your personal site (or, it should be); however, it requires you to learn its basics (which are easy); to be honest, I don’t think Dev blog post layout seems great but once you get used to it, it shouldn’t be a problem
+
+
+## Why wireframes
+@channel here are wireframes and domain model of a project I designed and am currently working on with two other devs for one organization (you may need to zoom out to see everything): https://www.figma.com/file/xjxOTRaWku7QcErlFsodx7/Covid-draft
+I am sending you this so that you will see how wireframes look and that they are super-helpful in:
+- knowing where you’re going with your code;
+- having a reference for the future if you pick up your project again;
+- making it easier for folks to collaborate with me;
+- making it easier to discuss the project with the ngo;
+- appearing organized to my future employers;
+Also, as you see, I started with one domain model (which was based on the requirements from the organization) and then realized there’s lots of repetitions and simplified it to a much easier model. I could simplify it even more by making country and theme one model (they have same attribute) but keeping them separate models will allow me to make queries much easier/faster.
+On the right you will see component hierarchy —that’s a React thing, don’t worry about it too much yet :slightly_smiling_face:
+
+## Designing good databases:
+A VERY GOOD READ: https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design :+1:
+
+## Ian's deploying lecture
+For those of you interested in deploying your apps, Ian did a lecture vid from Mod 3:
+Readme: https://github.com/learn-co-students/nyc-dumbo-web-120919/tree/master/40-deploying
+Video: https://www.youtube.com/watch?v=oouM3La_N0o&feature=youtu.be
+It’s a little more geared toward Mod 3 projects, but the section on deploying Rails apps to Heroku should work just fine for your projects too

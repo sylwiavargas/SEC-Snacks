@@ -6,6 +6,12 @@
  If you feel confused about ERB tags, here’s a very simplified cheat sheet that works 90% of the time:
 https://medium.com/swlh/cheatsheet-which-erb-tag-should-i-use-4b3de261f15f
 
+### Nokogiri
+If Nokogiri takes some time, you can run:
+`gem install nokogiri -- --use-system-libraries`
+From this Github issue:
+https://github.com/flavorjones/mini_portile/issues/31
+
 ### Capybara announcement
 @here  CAPYBARA ANNOUNCEMENT in case someone drifted away:
 We thought we’d spare you despair and give you a heads-up on that the tests for this module are written in Capybara. They are slightly different - Capybara tests are SUPER specific. If your wording/spacing/capitalization/spelling is not exact and precise, the test will not pass. It is more precise than the tests for the previous labs. If you solve the problem, and you get the output that the read me asks, but the tests do not pass, that is okay. These labs are going to test you behavior-driven development skills, unlike the other labs which were using test-driven development.
@@ -72,6 +78,42 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 It’s a work in progress — Monica Powell has launched it just recently and you all can contribute the gifs there to the codes that are missing :heart: contribute here: https://github.com/M0nica/httriri
 @here
 
+### VS Code Extenstions
+VS Code extensions for ERB, HTML and CSS:
+:sparkles: Auto-closing tags: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+:sparkles: CSS color picker: https://marketplace.visualstudio.com/items?itemName=lihui.vs-color-picker
+:sparkles: HTML CSS support: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css#review-details
+:sparkles: Prettier (code formatter — helps you with proper indentation): https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+:sparkles: Rainbow brackets (so you know where your brackets are ending): https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
+:sparkles: Rainbow indentation: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+:sparkles: Simple Ruby ERB (Cycles through the tags <%= %>, <% %> and <%# %> ) :https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb
+
+=== 
+## Week 2 
+
+### Troubleshooting Rails app
+Something is not working in your rails app? Follow these steps:
+1) Check `config/routes`
+2) Are your routes connected to an action in a controller?
+3) Action in the controller —does it exist?
+4) What are you sending over to the views?
+5) What’s being rendered on the views?
+@here
+
+### Rails and forms
+@here read more about form_for, form_tag, form_with:
+:sparkles: docs: https://guides.rubyonrails.org/form_helpers.html
+:sparkles: blog: https://m.patrikonrails.com/rails-5-1s-form-with-vs-old-form-helpers-3a5f72a8c78a
+
+### Index action on Rails infographic by isabel
+https://files.slack.com/files-pri/T02MD9XTF-F0117ULNNKB/rails_index_action.png
+
+### Notes on action by Eric
+https://flatiron-school.slack.com/files/U91CXSUN4/F011J44A8EL/rails__1_.pdf
+
+### CRUDopus
+https://flatiron-school.slack.com/files/U91CXSUN4/F011KH2KUM7/restful_diagram__1_.png
+
 ### Nice formatting of Rails
 Problem: How to get nice formatting in the Rails console?
 -------------------------------------------------------------------------
@@ -100,13 +142,34 @@ Rails generators syntax: https://medium.com/@kevinyckim33/rails-generators-cli-c
 @here Here’s a Ruby on Rails slack community of ~15k devs who always are happy to help out and share awesome materials :heart:
 https://www.rubyonrails.link/
 
-### Rails project examples:
-Additional examples with youtube videos:
-https://github.com/anamsoomro/CaptionIt		https://youtu.be/qpiVlTYH9As
-https://github.com/pahoffart25/project-2		https://www.youtube.com/watch?v=15LeO02_Ms0&feature=youtu.be
-https://github.com/somaia-khalil/QuizMe1		https://www.youtube.com/watch?v=FTQ13u0bsoM&feature=youtu.be
-https://github.com/SteRobWms/mod2-blackjack-project		https://youtu.be/A7KbyE3_uwA
-https://github.com/timothyalton/flight-guru-app		
+### Before Code Challenge
+@channel I remember that what helped me in my code challenge was developing a structure/habit in approaching a lab. I’d encourage you to develop one for yourself if you stress out or feel overwhelmed. Write a step-by-step instruction for yourself and do three labs following the steps.  For instance, here are the steps that helped me pass&finish fast:
+1. `git clone, bundle install`
+2. While your terminal is doing the job, read the instruction.
+3. ON A WHITEBOARD: draw the models, draw the associations (does it need a join model?), write what each model needs (columns), mark validations and views
+NOW only you’re starting to code. Create models (`rails g model`). I’d also copy/paste instructions for each model from the read me. If you feel like a task is super confusing, put it at the bottom of the list so that you get to it at the end (5/6 tasks done is better than being stuck for 40 minutes in panic)
+4. Add association macros and validations in models
+5. Create and run migrations: `rails db:create`, `rails db:migrate`
+6. Write seed data just to check associations (I’d say, three instances of each class but only 2 for a joiner; in each of the classes, there should be one instance without connection)
+7. `rails db:seed`
+8. In `rails console`: try to access instances of different classes through associations:
+- check whether your seeds exist (e.g. `User.all or User.all.first`)
+- check whether associations work (e.g. `User.all.first.students` would check for all my students and `User.all.first.laptop` would check for the laptop of the first user and `User.all.first.laptop.gadgets.first`  would check the first gadget that belongs to the laptop)
+- check validations: try to create a student with incomplete required stuff and then checks if it went to your database (e.g. `User.all.last`) — if it did, you check your validations
+9. check which routes you’d need, go to `config/routes.rb`, write up the correct routes
+10. create controllers (`rails g controller users`) and fill them up with the actions that are in accordance with the routes and the readme
+11. create views that are required from you by the readme
+12. fire up the server: `rails s`
+13. go have fun with your page —try to break it!
+AND OF COURSE YOU DON’T HAVE TO FOLLOW THIS! My point is only that for me it felt overwhelming and I developed a structure/habit that helped me not panic and not forget to e.g. test!
+
+### Pulse Check Survey
+@channel As the CODE CHALLENGE is approaching, we’d like to make sure you all are in great shape. Here’s a little pulse check — for you to tidy up all your learnings (yes, it is a word) and for us to see how to better assist you in the upcoming days. Here’s how it works:
+1) You’ve got 5 hours (by 6pm today) to complete the survey;
+2) Please google/use notes whenever necessary — this is an opportunity for you to learn more;
+3) If you do google, could you please write [NI] for “no idea” and [NS] for “not sure” in your answer so we know how confident you were when you first saw the question? We are not judging you for not knowing, we genuinely want to help out!
+Any questions? Ask us!
+here’s the link: LINK
 
 ### For/in loop vs each
 :ruby: :ruby: :ruby:  I heard a good question today: why is for/in loop a less optimal option than .each? :ruby: :ruby: :ruby:
@@ -142,8 +205,82 @@ element
 ```
 Read more: http://graysoftinc.com/early-steps/the-evils-of-the-for-loop
 
+## Dark Mode with Cookies
+:cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:
+@here’s a blog on dark/light modes with Rails: https://medium.com/@sylwiavargas/dark-mode-in-ruby-on-rails-with-cookies-c892ac52ebaa
+:cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:
+
 ===
 ## Project Week 
+
+### Welcome
+:sparkles:  :sparkles: WELCOME TO PROJECT WEEK! :sparkles: :sparkles:
+Most importantly: congratulations to ALL OF YOU for passing the code challenge. You are such a wonderful community of folks who help each other succeed :meow_party:
+We have deployed MOD2 project guidelines. Before you start coding, we want you to:
+:sparkles: think through your app;
+:sparkles: check next week’s schedule to be very much aware of the lectures that are coming your way so you plan accordingly;
+:sparkles: copy this project pitch template into your own document and fill it out;
+:sparkles: create a wireframe in figma, sketch, or adobe xd (all of them are free) and submit it together with the template;
+:sparkles: once you’re done with it, send these documents in a message to Eric+Ian+Rei+me; if we have any further questions, we’ll send you a message or get on a call with you :heart: however, try to already think about what questions we will have and answer them in your template beforehand to continue having wonderful and frustration-free lives :heart:
+You can start coding only once you’ve gotten our approval.
+What questions do you have about this process?
+@channel
+
+### Postgresql
+you should all consider creating your Rails app using Postgres instead of Sqlite to make it easy for yourself to deploy your website to the world.
+
+The command for that is:
+
+`rails new myapp --database=postgresql`
+
+You’ll need to also have downloaded the app from https://postgresapp.com/ and have it running on your computer while working.
+The only major difference is that before you run `rails db:migrate`, you’ll have to create your database by first running `rails db:create`
+
+### Good pairing reminder
+@channel I hope you guys are enjoying this beautiful weather and getting some rest before the project week!
+Because I believe it’s great to enter a new week with strong motivation to show up and contribute, I am resharing the ideal-world scenario on collaboration. Please please please make sure you and your partner are on the same page with regards to the project idea, app functionality and code. It all has to be consensual — before the week begins, think about how you can make this week a wonderful experience for yourself and your partner. For instance:
+- if your partner usually does not speak up, make sure to take a step back and let them speak!
+- if you usually don’t express your thoughts, this is the time for you to train that skill!
+- ask, and ask again, whether all is clear!
+- and lastly, PLEASE AGREE ON GROUND RULES (how you’ll resolve misunderstandings and differences, how much you’ll work, etc.)
+Here’s the doc I shared with you previously:
+https://docs.google.com/document/u/4/d/1x5UJk5FJ2MGNtkAR48-RdpQiUzoHARNbdfluWR8miIk/edit?usp=sharing
+tl;dr: here’s a pair-programming/project recipe you can follow:
+
+### Challenging folks to be ambitions
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+Hello Friends!
+Since everyone passed the code challenge and everyone is working solo, we want to encourage you to:
+- have a basic mvp and be done with it in two days,
+- dream big about additional features (and implement them one by one).
+We want you to take time to learn stuff that will benefit you in the next mods. Here’s a curated of ideas of stuff that can really make it easier for you in the next mods:
+**RAILS:**
+- custom validations;
+- custom routes (e.g. when I click on the button, it sends a POST request, creates another instance of the join model and increases points in the database);
+- custom error handling;
+- auth;
+- self-referential and polymorphic models (e.g. a user can follow another user on social media);
+- guard clauses - instead of else/ifs;
+- named scope — a way to make faster database queries (e.g. if you want a method that will always give you entries in a specific order);
+request tests;
+- using cookies for dark/light mode;
+- nested forms (nested params) —a form that creates instances of a few models all at once;
+**GEMS:**
+- seeding data from an external API;
+- ActiveMailer — sending email notifications;
+- ActiveStorage — profile picture upload (if they have user model);
+- Twillio API — sending sms (you can connect it to the dev hackaton; read more: https://dev.to/devteam/announcing-the-twilio-hackathon-on-dev-2lh8)
+**CSS:** 
+- use a styling library like bootstrap, semantic ui, bulma — really straightforward implementation, good docs, lots of blog posts; You’ll save so much time in the next mods;
+@channel
+
+### Rails project examples:
+Additional examples with youtube videos:
+https://github.com/anamsoomro/CaptionIt		https://youtu.be/qpiVlTYH9As
+https://github.com/pahoffart25/project-2		https://www.youtube.com/watch?v=15LeO02_Ms0&feature=youtu.be
+https://github.com/somaia-khalil/QuizMe1		https://www.youtube.com/watch?v=FTQ13u0bsoM&feature=youtu.be
+https://github.com/SteRobWms/mod2-blackjack-project		https://youtu.be/A7KbyE3_uwA
+https://github.com/timothyalton/flight-guru-app		
 
 ### I wish I had known about CSS
 Here’s something I wish I had known before doing my MOD2 (that I cover in the lecture and in the repo):
@@ -213,6 +350,22 @@ https://github.com/bootstrap-ruby/rails-bootstrap-navbar
 Here’s one project from my previous student (Stephanie Zou) who used Bootstrap with Rails and shed many tears. If something is not working in your code, please check how she implemented it for reference:
 https://github.com/stephaniezou1/Acorn-Search-Engine
 
+### Community message
+:sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny:
+Bold proposal: I know this program feels like SCHOOL but it doesn’t have to! Let’s think about this first and foremost as a community of folks who are doing this courageous thing with their lives. If you take such lense, it’s going to be easier not only to offer help (you all are great with this) but also to reach out to others. You are all sooo knowledgeable and resourceful — help each other share their skills and insights with you!
+For instance, if you feel like you’re totally not great with design —make a post here and let others help you out! Or, if you feel like your method is clunky ask others to look at it. And if you’re asked to look at it, don’t just say “it’s good” —ask questions! Working together while working separately on different projects is SOOOO rewarding —and that’s gonna be your life as devs!
+Good questions to ask in order to get informative feedback on your code:
+- could you read this out loud to me and tell me what this code should be doing? (if they can’t, the reason might be how you wrote the code!)
+- how do you think I could name this better?
+- the problem I’m trying to solve is xyz — can you brainstorm with me ways I could achieve that?
+Good questions to ask when you’re giving feedback:
+- what feedback are you looking for?
+- if you had to cut out two lines of code from your project/model/controller, which ones would you cut?
+- which part did you struggle with understanding when you were initially writing it — where are the comments that explain what this code does?
+- could you explain to me what this class/method/controller/route does?
+- could you show me how one uses your app? What do you think would make the experience easier? How do you think you can achieve that yourself or by reaching to others?
+:sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny:
+
 ===
 ## Week 3 Day 5
 
@@ -249,3 +402,76 @@ https://medium.com/@kasiarosenb/deploying-your-rails-app-on-heroku-a2096dc40aac
  @here for all you Hamilton fans — an example of why JS is awesome and powerful:
 https://pudding.cool/2017/03/hamilton/index.html
 
+## JS Warmup
+@here here’s the repo I created for today’s optional intro to js:
+https://github.com/sylwiavargas/js-warmup
+I thought today is going to be just an overview of js syntax, terminology and the differences that concern Rubyists. However, I am planning to give a few shorter “warm-ups” of this kind throughout mod3 to cover the stuff that’s good to know — sometimes it’s going to be a subject (e.g. practical difference between var , let  and const ) and sometimes it’s going to be one of the js gotchas that illustrate how the language works. You’re welcome to join, to fork the repo (so you can get updates even if you don’t participate) or not join and do your own thing :heart:
+
+## DEPLOY
+PLEASE DEPLOY!  
+https://medium.com/@kasiarosenb/deploying-your-rails-app-on-heroku-a2096dc40aac
+and write good readmes asap!
+- brag about all the stuff you implemented and solutions (yes, auth, validations, nested routes, numerous user journeys, css library or pure css, external apis etc.)
+- attach gifs that show your website
+Here are two of my readmes to make your life easier:
+- one that I’m more proud of: https://github.com/luanesouza/backend-lets-change-the-subject/blob/master/README.md
+- one that is featuring the solutions (aimed at e.g. employees): https://github.com/sylwiavargas/Gentrification-Map-Frontend/blob/master/README.md
+
+## Get excited about JS
+:sparkles::sparkles: my personalized collection of :sparkles::sparkles:
+:sparkles::sparkles::sparkles:JavaScript inspirations :sparkles::sparkles::sparkles:
+beautiful pages, fun frameworks, amazing tools for this and next mods
+for the moments when you hate JS to remind you of its beauty and power
+first of all, SUBSCRIBE TO THIS EMAIL-BASED BOOK ASAP:
+https://justjavascript.com/
+-> it’s by Dan Abramov (an amazing dev on React core team), where he uses amazing analogies to explain how JS works and why
+Warm-up:
+http://eelslap.com/
+https://theuselessweb.com/
+Beautiful and fun stuff:
+https://avseoul.net/particleEqualizer/ (!!!!!)
+https://patatap.com/ (!!!)
+https://codepen.io/TheCodeDepository/pen/jKBaoN?page=8
+https://mattdesl.github.io/jsconfeu-generative-visuals/public/
+http://www.fallingfalling.com/
+https://bellwoods.xyz/
+https://codepen.io/akm2/full/rHIsa
+https://femurdesign.com/theremin/
+Data viz:
+https://pudding.cool/2017/03/hamilton/ (!!!!)
+http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html (!!!)
+Games:
+Graham’s tetris: https://www.fuckyeahgtj.com/tetris/
+Elizabeth Le and Woody Lucas: http://flatiron-ware-game.herokuapp.com/
+Angelo Spaminato and Maximo Bautista: https://evolfo.github.io/tom-pilgrim-vs-the-universe/front-end/index.html
+AR (Artificial Reality):
+https://github.com/jeromeetienne/AR.js
+https://stemkoski.github.io/AR-Examples/
+Storytelling:
+http://www.oatthegoat.co.nz/
+http://i-remember.fr/en (!!!!)
+Robots:
+https://cylonjs.com/
+ML (Machine Learning):
+https://www.tensorflow.org/js/
+Drawing:
+https://trackingjs.com/
+Lots of inspirations:
+https://experiments.withgoogle.com/collection/chrome
+Graham’s amazing page that involves scrolling:
+http://www.fieldmuseum.org/discover/on-exhibit/specimens/
+AI (Artificial Intelligence):
+face recognition (good docs): https://github.com/justadudewhohacks/face-api.js/
+real-time object detection (easy tutorial): https://developer.ibm.com/patterns/create-a-real-time-object-detection-app-using-watson-machine-learning/
+Front-end fameworks I love dearly:
+https://p5js.org/examples/
+http://paperjs.org
+https://two.js.org/examples/text.html
+https://two.js.org/examples/rubber-ball.html
+https://d3js.org/
+:sparkles::sparkles::sparkles: Learn JavaScript :sparkles::sparkles::sparkles:
+https://javascript30.com/ (once you feel comfortable with the basics)
+https://eloquentjavascript.net/ (amazing textbook - but goes really into detail)
+https://learnxinyminutes.com/docs/javascript/ (if you have questions like “but why” or “but how”)
+https://github.com/getify/You-Dont-Know-JS (very much in-depth textbooks -- save it for mod6)
+@channel
