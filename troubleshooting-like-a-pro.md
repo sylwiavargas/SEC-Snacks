@@ -1,5 +1,8 @@
 # Troubleshooting Threads
 
+**My labs don’t mark green - why?**
+Learn outage, wait up to 24h.
+
 Learn Submit issues:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1590440514054400 
 
