@@ -133,43 +133,43 @@ Access Password: 7p#@Hz2?
 ## CSS
 If you wanna learn CSS…
 :sparkles: :sparkles: :sparkles:  Free courses  :sparkles: :sparkles: :sparkles:
-Grid vs Flexbox: https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
-LEARN GRID: https://cssgrid.io/
-LEARN FLEXBOX: https://flexbox.io/
+- Grid vs Flexbox: https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
+- LEARN GRID: https://cssgrid.io/
+- LEARN FLEXBOX: https://flexbox.io/
 :sparkles: :sparkles: :sparkles:  Games  :sparkles: :sparkles: :sparkles:
-GAME ON CSS SELECTORS: https://flukeout.github.io/
-GAME ON GRID: https://cssgridgarden.com/
-GAME ON FLEXBOX: https://flexboxfroggy.com/
+- GAME ON CSS SELECTORS: https://flukeout.github.io/
+- GAME ON GRID: https://cssgridgarden.com/
+- GAME ON FLEXBOX: https://flexboxfroggy.com/
 :sparkles: :sparkles: :sparkles:  My lecture on CSS  :sparkles: :sparkles: :sparkles:
-Repo: https://github.com/sylwiavargas/CSS-Lecture-And-Exercises
-Video: https://www.youtube.com/watch?v=p_dDWuKu70c&feature=youtu.be
-Quiz on CSS tricks: http://cssisfun.surge.sh/
+- Repo: https://github.com/sylwiavargas/CSS-Lecture-And-Exercises
+- Video: https://www.youtube.com/watch?v=p_dDWuKu70c&feature=youtu.be
+- Quiz on CSS tricks: http://cssisfun.surge.sh/
 :sparkles: :sparkles: :sparkles:  Inspiration  :sparkles: :sparkles: :sparkles:
-Painting done entirely with CSS: http://diana-adrianne.com/purecss-francine/
-All made with CSS: https://a.singlediv.com/
-Same website, different css: http://cssgridgarden.com/
-CSS newspaper: https://codepen.io/oliviale/pen/BaoXOOP
-Codepen: https://codepen.io/popular/pens/
+- Painting done entirely with CSS: http://diana-adrianne.com/purecss-francine/
+- All made with CSS: https://a.singlediv.com/
+- Same website, different css: http://cssgridgarden.com/
+- CSS newspaper: https://codepen.io/oliviale/pen/BaoXOOP
+- Codepen: https://codepen.io/popular/pens/
 :sparkles: :sparkles: :sparkles:  Cheat sheets and generators :sparkles: :sparkles: :sparkles:
-Button generator: https://www.bestcssbuttongenerator.com/#/3
-10 animations generators (including fancy spinners you will love while doing React): https://www.hongkiat.com/blog/css3-animation-tools/
-More animations: https://sarthology.github.io/Animatopy/
-CSS generator: http://angrytools.com/css-generator/
-Another CSS generator: https://webcode.tools/css-generator/
-Gradient generator: http://angrytools.com/gradient/
-Grid templates: https://gridbyexample.com/examples/
-Classless CSS themes: https://www.cssbed.com/kacit/
+- Button generator: https://www.bestcssbuttongenerator.com/#/3
+- 10 animations generators (including fancy spinners you will love while doing React): https://www.hongkiat.com/blog/css3-animation-tools/
+- More animations: https://sarthology.github.io/Animatopy/
+- CSS generator: http://angrytools.com/css-generator/
+- Another CSS generator: https://webcode.tools/css-generator/
+- Gradient generator: http://angrytools.com/gradient/
+- Grid templates: https://gridbyexample.com/examples/
+- Classless CSS themes: https://www.cssbed.com/kacit/
 @here
 
 
 ## Friendly CSS libraries:
 :sparkles: :sparkles: :sparkles:  Friendly CSS libraries  :sparkles: :sparkles: :sparkles:
 Semantic UI (my fav): https://semantic-ui.com/
-setting up with Rails: https://stackoverflow.com/questions/37283642/how-do-i-set-up-a-rails-application-with-semantic-ui
+- setting up with Rails: https://stackoverflow.com/questions/37283642/how-do-i-set-up-a-rails-application-with-semantic-ui
 Materialize: https://materializecss.com/
-Setting up with Rails: https://rubyinrails.com/2015/09/17/how-to-integrate-material-ui-with-rails/
+- setting up with Rails: https://rubyinrails.com/2015/09/17/how-to-integrate-material-ui-with-rails/
 Bootstrap: https://getbootstrap.com/
-Setting up with Rails: https://github.com/twbs/bootstrap-rubygem (edited) 
+- setting up with Rails: https://github.com/twbs/bootstrap-rubygem (edited) 
 
 ## Make your page accessible
 LAST BUT NOT LEAST, PLEASE READ ABOUT HOW TO MAKE YOUR PAGE ACCESSIBLE:
@@ -180,21 +180,22 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1593539322087500
 
 ## Art and tech:
 Algoraves and live coding music:
-https://www.youtube.com/watch?v=Ix2b_qFYfAA
-https://www.youtube.com/watch?v=h340aNznHnM
-https://www.wired.com/story/algoraves-live-coding-djs/
-A mod4 (React) project done by a student of mine in p5.js (fractal-generation)
-https://thefractal.zone/
+ - https://www.youtube.com/watch?v=Ix2b_qFYfAA
+ - https://www.youtube.com/watch?v=h340aNznHnM
+ - https://www.wired.com/story/algoraves-live-coding-djs/
+
+A mod4 (React) project done by a student of mine in p5.js (fractal-generation): https://thefractal.zone/
+
 Same student created a meditative sound/image experience for mod3 (js):
 https://rizz0s.github.io/multi-viz/
-Another student of mine has written a blog post about intro to p5.js:
-https://medium.com/better-programming/learning-p5-js-by-making-fractals-cbdcac5c651e
-Aarati Akkappedi, a friend of mine, uses Machine Learning and archives in her art:
-https://aarati.me/
-Also, another friend of mine, Jaryn Colbert, has created this app that creates Sol LeWitt-like paintings:
-https://www.jaryncolbert.com/solitude/#/
-turns out another friend also created such an app and wrote a blog post about it:
-https://medium.com/@mere.strickland/create-your-own-sol-lewitt-with-p5-js-165cdeda2d88
+
+Another student of mine has written a blog post about intro to p5.js: https://medium.com/better-programming/learning-p5-js-by-making-fractals-cbdcac5c651e
+
+Aarati Akkappedi, a friend of mine, uses Machine Learning and archives in her art: https://aarati.me/
+
+Also, another friend of mine, Jaryn Colbert, has created this app that creates Sol LeWitt-like paintings: https://www.jaryncolbert.com/solitude/#/
+
+turns out another friend also created such an app and wrote a blog post about it: https://medium.com/@mere.strickland/create-your-own-sol-lewitt-with-p5-js-165cdeda2d88
 
 ## Real-life bubble sort
 Real-life bubble sort -> crab edition:
