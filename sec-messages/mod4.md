@@ -120,7 +120,7 @@ Code: https://github.com/tastejs/todomvc/tree/master/examples/react/js
 If you’re interested in diving into the deep end of learning the React ecosystem (or if you want to at some point, but are underwater right now, maybe just throw a bookmark), this guide was written by Pete Hunt, who was one of the main guys at Facebook responsible for building and open sourcing React. It’s a little dated and I haven’t gone too deep yet, but it seems really great.
 https://github.com/petehunt/react-howto (edited) 
 
-===
+___
 ## Week 2 Day 1
 
 ### Correct syntax reminder
@@ -196,7 +196,7 @@ Enjoy!
 However, remember that your first priority is to MASTER what you already know about React. Do not jump into extra stuff if you e.g. do not know controlled forms well or feel icky about state. First, learn React, then do fancy stuff.
 Questions? Ask in comments :heart:
 
-===
+___
 ## Week 3 Day 3
 
 ### Intro to Redux

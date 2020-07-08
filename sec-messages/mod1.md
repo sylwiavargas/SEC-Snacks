@@ -323,7 +323,7 @@ Beth Haubert created a melody extrator in Ruby that turns any song into meowing
 hear her talk: https://www.youtube.com/watch?v=W7KL1jl1bKM
 read about it: https://thoughtbot.com/blog/meowifier-a-hiss-tory-lesson 
 
-===
+___
 ##  Week 2 Day 1
 
 ### Morning
@@ -512,7 +512,7 @@ https://github.com/sylwiavargas/ruby-cli-setup
 It already has the file structure to help you get started, some blogs to help you out and some of my favorite fun gems mentioned :heart:
 @here
 
-===
+___
 ## Week 3 Day 1
 
 ### Morning message

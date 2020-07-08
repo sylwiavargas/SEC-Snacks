@@ -217,7 +217,7 @@ Otherwise — take a good rest and code. What to do if you feel overwhelmed and 
  write down the errors you’re getting and what they tell you
 ✨ AND MOST IMPORTANTLY, GET GOOD REST
 
-===
+___
 ## Week 2 Day 1
 
 ### saving obejct id 
@@ -305,7 +305,7 @@ const surprise = "\u006C\u006F\u006C\u0077\u0061\u0074"
 const Hͫ̆̒̐ͣ̊̄ͯ͗͏̵̗̻̰̠̬͝ͅE̴̷̬͎̱̘͇͍̾ͦ͊͒͊̓̓̐_̫̠̱̩̭̤͈̑̎̋ͮͩ̒͑̾͋͘Ç̳͕̯̭̱̲̣̠̜͋̍O̴̦̗̯̹̼ͭ̐ͨ̊̈͘͠M̶̝̠̭̭̤̻͓͑̓̊ͣͤ̎͟͠E̢̞̮̹͍̞̳̣ͣͪ͐̈T̡̯̳̭̜̠͕͌̈́̽̿ͤ̿̅̑Ḧ̱̱̺̰̳̹̘̰́̏ͪ̂̽͂̀͠ = 'Cthulhu';
 ```
 
-===
+___
 ## Week 3 Day 1
 
 ### After OOJS lecture

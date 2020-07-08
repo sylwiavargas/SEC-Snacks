@@ -71,7 +71,7 @@ Separately:
 Commit your code every hour or every feature you’ve built. This is to show your employers that you have been working hard these three weeks. Also, to retrieve your code in case you made a major error or something horrible happened to your computer;
 Ask us questions ONLY after you have googled, and asked your colleagues, all-about-code or stack overflow; before coming here, send us a message describing what the problem is, and what you’ve googled so far; 
 
-===
+___
 
 ## Week 2 Day 3
 

@@ -47,7 +47,7 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1591708431136200
 Rake db commands don't work:
 https://flatiron-school.slack.com/archives/C013UCH1UA0/p1591738147182500
 
-===
+___
 ## Mod 2
 
 Your Ruby version is 2.5.1, but your Gemfile specified 2.6.1
@@ -128,7 +128,7 @@ https://flatiron-school.slack.com/archives/CUH4FCJRL/p1587426807323500
 ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation
 https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
 
-===
+___
 ## Mod 3
 
 forEach is not a function:
@@ -154,7 +154,7 @@ ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation
 https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
 
 
-===
+___
 ## Mod 4
 
 not allowing to declare variables

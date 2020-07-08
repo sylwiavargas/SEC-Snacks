@@ -88,7 +88,7 @@ VS Code extensions for ERB, HTML and CSS:
 :sparkles: Rainbow indentation: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
 :sparkles: Simple Ruby ERB (Cycles through the tags <%= %>, <% %> and <%# %> ) :https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb
 
-=== 
+___ 
 ## Week 2 
 
 ### Troubleshooting Rails app
@@ -210,7 +210,7 @@ Read more: http://graysoftinc.com/early-steps/the-evils-of-the-for-loop
 @here’s a blog on dark/light modes with Rails: https://medium.com/@sylwiavargas/dark-mode-in-ruby-on-rails-with-cookies-c892ac52ebaa
 :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:  :cookie:
 
-===
+___
 ## Project Week 
 
 ### Welcome
@@ -366,7 +366,7 @@ Good questions to ask when you’re giving feedback:
 - could you show me how one uses your app? What do you think would make the experience easier? How do you think you can achieve that yourself or by reaching to others?
 :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny:
 
-===
+___
 ## Week 3 Day 5
 
 ### Before JS

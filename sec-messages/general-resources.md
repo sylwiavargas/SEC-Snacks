@@ -77,7 +77,7 @@ Flatiron/
      ...etc
 ```
 
-===
+___
 
 ## Coding fluff
 https://twitter.com/deniseyu21/status/1112494446040489984
@@ -91,7 +91,7 @@ And also:
 Inspiration corner: wealth data viz in html+css (and tiny bit of js)
 https://mkorostoff.github.io/1-pixel-wealth/
 
-===
+___
 
 ## Notes
 I noticed some of you take notes in google docs or Apple’s notes, which maybe is a suboptimal experience when it comes to writing code. I personally use Boostnote (free), which allows you to take notes and embed code. Here are some other options: https://www.makeuseof.com/tag/best-note-taking-tools-programmers/
