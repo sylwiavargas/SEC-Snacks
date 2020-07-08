@@ -165,6 +165,12 @@ const myName = name => console.log(`Hi, my name is ${name}`)
 ```
 since it’s just one argument, it doesn’t need parenthesis 
 
+### async js, async/await, promises:
+More on async/await and asynchronous js:
+- general intro: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+- why async works without await: https://medium.com/javascript-in-plain-english/async-await-javascript-5038668ec6eb
+- an awesome short course on what promises are: https://www.udacity.com/course/javascript-promises--ud898
+
 --- 
 ## Week 1 Day 5
 
