@@ -305,3 +305,70 @@ const surprise = "\u006C\u006F\u006C\u0077\u0061\u0074"
 const Hͫ̆̒̐ͣ̊̄ͯ͗͏̵̗̻̰̠̬͝ͅE̴̷̬͎̱̘͇͍̾ͦ͊͒͊̓̓̐_̫̠̱̩̭̤͈̑̎̋ͮͩ̒͑̾͋͘Ç̳͕̯̭̱̲̣̠̜͋̍O̴̦̗̯̹̼ͭ̐ͨ̊̈͘͠M̶̝̠̭̭̤̻͓͑̓̊ͣͤ̎͟͠E̢̞̮̹͍̞̳̣ͣͪ͐̈T̡̯̳̭̜̠͕͌̈́̽̿ͤ̿̅̑Ḧ̱̱̺̰̳̹̘̰́̏ͪ̂̽͂̀͠ = 'Cthulhu';
 ```
 
+===
+## Week 3 Day 1
+
+### After OOJS lecture
+Highlights from OOJS:
+- Functions defined in a class (without the function keyword) can be considered instance methods
+- Class methods are defined with the static key word
+- Prototypes are objects and every instance gets their shared functions from within the prototype object
+- The value of this inside instance functions will hopefully be the instance (that’s why we should use arrow functions)
+Highlights from this/bind/call/apply:
+- Arrow functions and how they take on the value of this during the function definition
+- Regular function determines the value of this at their function execution
+- Bind is a function you can invoke on a function definition that returns a function definition with a specific this
+- Call/apply is a function that you can invoke on a function definition that executes the function with a specific this'
+- USE ARROW FUNCTIONS TO DEFINE INSTANCE METHODS IN REACT BECAUSE THEY IMPLICITLY BIND THE INSTANCE TO THE FUNCTION
+
+### API keys
+@here
+If you are working with an external API that requires a key, consider using @Sylwia Vargas (she/her)’s blog to hide that API key:
+https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6
+
+---
+## Week 3 Day 5
+
+### Eric's notes
+Highlights from OOJS:
+- Functions defined in a class (without the function keyword) can be considered instance methods
+- Class methods are defined with the static key word
+- Prototypes are objects and every instance gets their shared functions from within the prototype object
+- The value of this inside instance functions will hopefully be the instance (that’s why we should use arrow functions)
+- USE ARROW FUNCTIONS TO DEFINE INSTANCE METHODS IN REACT BECAUSE THEY BIND THE INSTANCE TO THE FUNCTION
+Highlights from this/bind/call/apply:
+- Arrow functions and how they take on the value of this during the function definition
+- Regular function determines the value of this at their function execution
+- Bind is a function you can invoke on a function definition that returns a function definition with a specific this
+- Call/apply is a function that you can invoke on a function definition that executes the function with a specific this
+Highlights from Code Organization:
+- Components are modular pieces of the HTML
+- Components describe the structure of the HTML & what event listeners are available for that component
+- Functions inside Adaptors return a promise, which can be chained on using .then
+Highlights from the ES6 Lecture:
+- Objects and arrays can be spread - they make a new object/array in memory with the same key-value pairs/elements
+- Objects and arrays can be destructured to pull out variables from the keys of existing objects (Useful when it comes to functional components)
+- The keys and values of objects can be created from variables (Useful when it comes to the body of fetch )
+- Arrow functions have to meet certain conditions in order for there to be an implicit return
+`   -map , filter and sort all take a callback and those callback functions must return a specific value
+In terms of which lectures to review, the ES6 Lecture is probably the highest priority, especially the second half.
+Then, Code Organization.
+However, Code Organization is built on the ideas covered in the OOJS Lecture and the This Lecture, so if you are feeling lost about Code Organization, start from the beginning.
+Recommended Steps:
+- Watch ES6 Lecture
+- Review Code Organization
+- If you’re lost with Code Organization, watch OOJS and then, This.
+- Get some React practice with labs, tutorials and videos.
+- Get some React practice with labs, tutorials and videos.
+- Get some React practice with labs, tutorials and videos.
+
+### Sylwia's message
+@channel In preparation for React:
+There’s some homework this weekend so that you have a strong foundation for how the tools that we’ll use with React work under the hood, and so we can focus on the core React concepts starting on Monday.
+Here is a really nice, short and smooth crash course to React that @Rei Reynoso (He/Him) recommended: https://www.youtube.com/watch?v=sBws8MSXN7A
+You can also follow the official React tutorial https://reactjs.org/tutorial/tutorial.html. You’ll generally find that the React docs are excellent - I recommend scanning them now, reading them next week, and then referencing them forever.
+Finally, there are new React labs on Learn. They start by reviewing some of the material mentioned above, then move into an overview of React and the building blocks of React apps: Components.
+:sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:
+If you want to understand React better, we’d propose that you  watch this webpack crash course video https://youtu.be/Teaw6HAoZyI. It covers some of the basics of webpack, a developer tool for bundling up different JavaScript files into a single that you can include on your page. It’s super useful both for splitting your code into different files and for including libraries in your JavaScript projects, both of which will be super useful in mod 4.
+React depends on lots of modern web technologies. It’s a wide wide world out there. Different types of modern technologies include: package managers, JavaScript transpilers, bundlers, development servers, hot module replacement tools, code minifiers; all sorts of things! Check out this resource to read a high-level overview of different parts of the toolchain. Don’t try to follow along programming any of these things. This resource is actually outdated.  The commit history shows it was last updated at the end of 2017. Things change fast in web development. This guide still provides an excellent high-level overview of different pieces of technology, but it definitely uses old out-dated versions of these technologies simply because new versions have since come out. Read it to learn the concepts, do not read it as a tutorial to programming along with! https://github.com/verekia/js-stack-from-scratch
+

@@ -97,6 +97,9 @@
 1. What is the most exciting bug you’ve squished today?
 1. In percentage, how much of your MVP have you completed so far?
 1. What has been the most challenging aspect of your project thus far?
+1. How are you feeling about React/How is React treating you?
+1. What did you work on today, in addition to the lectures?
+1. What have you been doing to destress/take a break from coding?
 
 
 

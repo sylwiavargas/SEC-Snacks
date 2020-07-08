@@ -43,6 +43,9 @@ welcome to MOD4. From now on, the staff will be putting a lot of emphasis on imp
 5. Ask an instructor or a coach
 If you do come up to us, we expect you to tell us the following: “This is the component tree (have it drawn). This is the error I am having. I have googled this and that, console.logged/used debugger here and here, and tried to solve it with this and that person. What am I missing?“.
 
+### Mod 5 reminder
+Ask us questions ONLY after you have googled, and asked your colleagues, all-about-code or stack overflow; before coming here, send us a message describing what the problem is, and what you’ve googled so far; 
+
 ---
 
 ## Before pair programming
@@ -74,13 +77,21 @@ Flatiron/
      ...etc
 ```
 
+===
+
 ## Coding fluff
 https://twitter.com/deniseyu21/status/1112494446040489984
 https://files.slack.com/files-pri/T02MD9XTF-FV38QJU12/p51embziw9j41.jpg
+
 > “As soon as we started programming, we found to our surprise that it wasn’t as easy to get programs right as we had thought. Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs.”
 — Maurice Wilkes, 1979 (edited) 
 And also:
 > In trying to find a program bug, it is far more important to understand what your program is doing than to understand what it isn’t doing.
+
+Inspiration corner: wealth data viz in html+css (and tiny bit of js)
+https://mkorostoff.github.io/1-pixel-wealth/
+
+===
 
 ## Notes
 I noticed some of you take notes in google docs or Apple’s notes, which maybe is a suboptimal experience when it comes to writing code. I personally use Boostnote (free), which allows you to take notes and embed code. Here are some other options: https://www.makeuseof.com/tag/best-note-taking-tools-programmers/
@@ -288,3 +299,19 @@ For those of you interested in deploying your apps, Ian did a lecture vid from M
 Readme: https://github.com/learn-co-students/nyc-dumbo-web-120919/tree/master/40-deploying
 Video: https://www.youtube.com/watch?v=oouM3La_N0o&feature=youtu.be
 It’s a little more geared toward Mod 3 projects, but the section on deploying Rails apps to Heroku should work just fine for your projects too
+
+## Semantic HTML
+Read this to learn about why using semantic html is important for your page:
+- http://seekbrevity.com/semantic-markup-important-web-design/
+- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+- https://www.semrush.com/blog/semantic-html5-guide/
+When it’s appropriate to use <div> :
+- http://html5doctor.com/you-can-still-use-div/
+
+## First job inpiration
+@here I just saw this tweet thread about job hunt for your first dev role - much of it is pretty obvious but maybe some stuff will inspire you:
+https://twitter.com/tucker_dev/status/1262721984888279040?s=21
+
+## Stateful URLS
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1591045748010800
+

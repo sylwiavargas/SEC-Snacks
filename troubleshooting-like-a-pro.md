@@ -50,6 +50,9 @@ https://flatiron-school.slack.com/archives/C013UCH1UA0/p1591738147182500
 ===
 ## Mod 2
 
+Your Ruby version is 2.5.1, but your Gemfile specified 2.6.1
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590274315319800
+
 Hey guys- anybody else having an issue running bundle install on the lab?
 https://app.slack.com/client/T02MD9XTF/CUH4FCJRL/thread/CUH4FCJRL-1584396260.040100
 
@@ -122,6 +125,9 @@ https://flatiron-school.slack.com/archives/CUH4FCJRL/p1586555089049400
 Deploying page / yarn and package.json:
 https://flatiron-school.slack.com/archives/CUH4FCJRL/p1587426807323500
 
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
+
 ===
 ## Mod 3
 
@@ -136,3 +142,33 @@ https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588121205134300
 
 Could not locate gemfile - Pokemon:
 https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588197464168200
+
+PG::ConnectionBad: could not connect to server: No such file or directory
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588603444270900
+
+Uncaught (in promise):
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1588709214292100
+
+
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
+
+
+===
+## Mod 4
+
+not allowing to declare variables
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1589896035166400
+
+passing function incorrectly / pizza lab:
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1589897084169800
+
+Pokemon lab - broken image
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1589913372182000
+
+Your Ruby version is 2.5.1, but your Gemfile specified 2.6.1
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590274315319800
+
+
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation
+https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
