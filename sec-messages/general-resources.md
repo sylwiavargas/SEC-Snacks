@@ -177,8 +177,10 @@ If you wanna learn CSS…
 
 Semantic UI (my fav): https://semantic-ui.com/
 - setting up with Rails: https://stackoverflow.com/questions/37283642/how-do-i-set-up-a-rails-application-with-semantic-ui
+
 Materialize: https://materializecss.com/
 - setting up with Rails: https://rubyinrails.com/2015/09/17/how-to-integrate-material-ui-with-rails/
+
 Bootstrap: https://getbootstrap.com/
 - setting up with Rails: https://github.com/twbs/bootstrap-rubygem (edited) 
 
