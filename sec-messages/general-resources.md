@@ -132,25 +132,35 @@ Access Password: 7p#@Hz2?
 
 ## CSS
 If you wanna learn CSS…
+
 :sparkles: :sparkles: :sparkles:  Free courses  :sparkles: :sparkles: :sparkles:
+
 - Grid vs Flexbox: https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412
 - LEARN GRID: https://cssgrid.io/
 - LEARN FLEXBOX: https://flexbox.io/
+
 :sparkles: :sparkles: :sparkles:  Games  :sparkles: :sparkles: :sparkles:
+
 - GAME ON CSS SELECTORS: https://flukeout.github.io/
 - GAME ON GRID: https://cssgridgarden.com/
 - GAME ON FLEXBOX: https://flexboxfroggy.com/
+
 :sparkles: :sparkles: :sparkles:  My lecture on CSS  :sparkles: :sparkles: :sparkles:
+
 - Repo: https://github.com/sylwiavargas/CSS-Lecture-And-Exercises
 - Video: https://www.youtube.com/watch?v=p_dDWuKu70c&feature=youtu.be
 - Quiz on CSS tricks: http://cssisfun.surge.sh/
+
 :sparkles: :sparkles: :sparkles:  Inspiration  :sparkles: :sparkles: :sparkles:
+
 - Painting done entirely with CSS: http://diana-adrianne.com/purecss-francine/
 - All made with CSS: https://a.singlediv.com/
 - Same website, different css: http://cssgridgarden.com/
 - CSS newspaper: https://codepen.io/oliviale/pen/BaoXOOP
 - Codepen: https://codepen.io/popular/pens/
+
 :sparkles: :sparkles: :sparkles:  Cheat sheets and generators :sparkles: :sparkles: :sparkles:
+
 - Button generator: https://www.bestcssbuttongenerator.com/#/3
 - 10 animations generators (including fancy spinners you will love while doing React): https://www.hongkiat.com/blog/css3-animation-tools/
 - More animations: https://sarthology.github.io/Animatopy/
@@ -164,6 +174,7 @@ If you wanna learn CSS…
 
 ## Friendly CSS libraries:
 :sparkles: :sparkles: :sparkles:  Friendly CSS libraries  :sparkles: :sparkles: :sparkles:
+
 Semantic UI (my fav): https://semantic-ui.com/
 - setting up with Rails: https://stackoverflow.com/questions/37283642/how-do-i-set-up-a-rails-application-with-semantic-ui
 Materialize: https://materializecss.com/
