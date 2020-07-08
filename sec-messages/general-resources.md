@@ -100,7 +100,8 @@ I noticed some of you take notes in google docs or Apple’s notes, which maybe 
 Hello Future Tech Bloggers!
 Here’s a treat for you — a great tech article on how to write tech articles (so meta!) that I have just read and enjoyed!
 👾 https://css-tricks.com/advice-for-technical-writing/
-👾https://www.freecodecamp.org/news/what-500-blog-posts-taught-me-about-writing-great-articles/
+👾 https://www.freecodecamp.org/news/what-500-blog-posts-taught-me-about-writing-great-articles/
+
 I hope you’ll find it helpful!
 
 ## Fonts
