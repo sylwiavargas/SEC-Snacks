@@ -461,7 +461,7 @@ https://youtu.be/fmF19_TvplU
 ### Ruby fun time
 :ruby:  Ruby fun time! :ruby:
 In your terminal, run this:
-`brew install cowsay && brew install lolcat`
+`brew install cowsay && brew install lolcat && brew install fortune`
 Then, run this:
 ```
 echo  "The goal of Ruby is to make programmers happy. I started out to make a programming language that would make me happy, and as a side effect it's made many, many programmers happy.
@@ -479,7 +479,7 @@ fortune | cowsay -f stegosaurus | lolcat
 
 ### Project guidelines announcement slackbot message
 Here are the guidelines for the project: https://learn.co/tracks/module-1-web-development-immersive-3-0/ruby/module-1-projects/module-1-final-project-guidelines. 
-Here is document for project pitch: https://docs.google.com/document/d/1GfTDCwFGCAnvEhxhzfwbd4OHJZCQgsii0PLX6x_QCMA/edit. Make copy of this document and send it us on Monday before your project approval.
+Here is document for project pitch: https://docs.google.com/document/d/1GfTDCwFGCAnvEhxhzfwbd4OHJZCQgsii0PLX6x_QCMA/. Make copy of this document and send it us on Monday before your project approval.
 Visit LINK to see your assigned groups.
 
 ### Welcome to project Week message

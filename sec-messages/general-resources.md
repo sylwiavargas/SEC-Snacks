@@ -81,6 +81,7 @@ ___
 
 ## Coding fluff
 https://twitter.com/deniseyu21/status/1112494446040489984
+
 https://files.slack.com/files-pri/T02MD9XTF-FV38QJU12/p51embziw9j41.jpg
 
 > “As soon as we started programming, we found to our surprise that it wasn’t as easy to get programs right as we had thought. Debugging had to be discovered. I can remember the exact instant when I realized that a large part of my life from then on was going to be spent in finding mistakes in my own programs.”

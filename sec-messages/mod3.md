@@ -378,3 +378,46 @@ Finally, there are new React labs on Learn. They start by reviewing some of the 
 If you want to understand React better, we’d propose that you  watch this webpack crash course video https://youtu.be/Teaw6HAoZyI. It covers some of the basics of webpack, a developer tool for bundling up different JavaScript files into a single that you can include on your page. It’s super useful both for splitting your code into different files and for including libraries in your JavaScript projects, both of which will be super useful in mod 4.
 React depends on lots of modern web technologies. It’s a wide wide world out there. Different types of modern technologies include: package managers, JavaScript transpilers, bundlers, development servers, hot module replacement tools, code minifiers; all sorts of things! Check out this resource to read a high-level overview of different parts of the toolchain. Don’t try to follow along programming any of these things. This resource is actually outdated.  The commit history shows it was last updated at the end of 2017. Things change fast in web development. This guide still provides an excellent high-level overview of different pieces of technology, but it definitely uses old out-dated versions of these technologies simply because new versions have since come out. Read it to learn the concepts, do not read it as a tutorial to programming along with! https://github.com/verekia/js-stack-from-scratch
 
+---
+
+### forEach vs for loop
+
+In general, when I don’t have to, I do not use loops, especially nested loops, and use forEach or map instead because (top three reasons):
+forEach keeps the variable’s scope to the block, so if you’ve assigned a variable outside and re-use it within the forEach, the outside variable retains its value:
+/////////////////////// FOREACH /////////////////////////
+let num = 4;
+let arr = [0, 1, 2];
+
+arr.forEach(num => {
+  console.log(num);
+});
+
+// Result:
+// 0
+// 1
+// 2
+
+console.log(num);
+// Result:
+// 4
+
+/////////////////////// FOR / IN /////////////////////////
+let num = 4;
+let arr = [0, 1, 2];
+
+for(num in arr){
+ console.log(num)
+}
+
+// Result:
+// 0
+// 1
+// 2
+
+console.log(num);
+// Result:
+// 2
+forEach is a method specific to arrays (or, Array object) and as such, it expects you to obey the laws of arrays —if you don’t, you’ll get better errors (or, errors at all instead of silence)
+and of course, forEach is better for readability
+
+I’d only choose loops when I want to be able to break from the iteration if some condition is not met. That’s not possible with forEach  and that leads to performance issues.

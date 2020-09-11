@@ -26,16 +26,13 @@ Check this blog post, maybe something here will inspire you: https://dev.to/sylw
 ## Mod 1
 tba
 3. **What the hell are ternaries?**
-This is how ternaries work:
-{Question ?} {if true} {: if false}
-sylwiaStillSickTomorrow ? stayHome() : goHangOutWithYourLovelyFriends()
+
 ___
 ## Mod 2
 tba
 3. **What the hell are ternaries?**
 This is how ternaries work:
-{Question ?} {if true} {: if false}
-sylwiaStillSickTomorrow ? stayHome() : goHangOutWithYourLovelyFriends()
+
 
 ___
 ## Mod 3
@@ -68,7 +65,7 @@ Check this blog for a walkthrough: https://dev.to/sylwiavargas/arrow-functions-a
 3. **What the hell are ternaries?**
 This is how ternaries work:
 {Question ?} {if true} {: if false}
-sylwiaStillSickTomorrow ? stayHome() : goHangOutWithYourLovelyFriends()
+areYouFeelingSick ? stayHome() : goHangOutWithYourLovelyFriends()
 
 ---
 ## Mod4
@@ -84,4 +81,4 @@ https://stackoverflow.com/questions/38104346/correctly-destructuring-this-props-
 3. **What the hell are ternaries?**
 This is how ternaries work:
 {Question ?} {if true} {: if false}
-sylwiaStillSickTomorrow ? stayHome() : goHangOutWithYourLovelyFriends()
+areYouFeelingSick ? stayHome() : goHangOutWithYourLovelyFriends()

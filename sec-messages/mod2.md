@@ -363,7 +363,7 @@ Good questions to ask when you’re giving feedback:
 - if you had to cut out two lines of code from your project/model/controller, which ones would you cut?
 - which part did you struggle with understanding when you were initially writing it — where are the comments that explain what this code does?
 - could you explain to me what this class/method/controller/route does?
-- could you show me how one uses your app? What do you think would make the experience easier? How do you think you can achieve that yourself or by reaching to others?
+- could you show me how one uses your app? What do ou think would make the experience easier? How do you think you can achieve that yourself or by reaching to others?
 :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny: :sunny:
 
 ___
