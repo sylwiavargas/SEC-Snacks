@@ -160,7 +160,7 @@ https://flatiron-school.slack.com/archives/CUH4FCJRL/p1590523733350000
 ___
 ## Mod 4
 
-not allowing to declare variables
+not allowing to declare variables:
 https://flatiron-school.slack.com/archives/CUH4FCJRL/p1589896035166400
 
 passing function incorrectly / pizza lab:
