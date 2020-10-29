@@ -3,23 +3,37 @@
 ## General
 
 1. **My labs don’t mark green - why?**
+
 Learn outage, wait up to 24h.
 2. **How do I prioritize what to learn?**
+
 That's a great question to ask and I appreciate how proactive you are about managing your learning and possible future fatigue. I'd say, follow lead instructor's recommendation as to which are the priority labs. However, in the perfect-world scenario, you'd be able to do all the labs or at least read/skim the readmes before the lectures so you'd be able to at least be kinda familiar with the the new terminology and maybe even have some questions prepared.
 3. **How do I enhance my online presence?**
+
 I'd say, write tech blogs and then post about them on LinkedIn and Twitter using web dev hashtags.
 4. **How can I avoid burnout?**
+
 Here are a few survival tips:
+
 :sparkles:take frequent breaks
+
 **action step:** schedule your breaks or use pomodoro technique to force yourself away from keyboard!
 :sparkles:find a way to connect to each other beyond talking code* — having a community based on honest relationships is really important in battling burnout or impostor syndrome
+
 **action step:** take no-code breaks with different people each day;
+
 :sparkles:find a way to be excited about tech/js/react beyond doing labs — when you are really sick and tired of that all the time new material coming your way, it is easily to slip into stagnation and procrastination;
+
 **action step:** I used to listen to podcasts about radical tech, attend meetups on civic tech and just read about amazing tech solutions to social problems;
+
 :sparkles:be really aware of what you don’t understand and what confuses you and address it with fellow Pry Babies or staff — don’t allow yourself to waste time being confused!
+
 **action step:** note down all the questions as they arise; ask them after the discussion questions, the lecture or towards the end of the day (give us the opportunity to answer them first in the lectures or other labs!)
+
 **REMEMBER** Your brain is a muscle and as such it needs time to rest. Take breaks. Engage in empathy. Talk to people :heart:
+
 5. **I don't have any idea for an app**
+
 Check this blog post, maybe something here will inspire you: https://dev.to/sylwiavargas/33-app-ideas-for-bootcamp-students-code-newbies-3n28
 
 ---
