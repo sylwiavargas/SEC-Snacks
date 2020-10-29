@@ -89,7 +89,7 @@ Imagine you're in your room — that's our component.
 The room has a closet (state) where you can put whatever you want, e.g. some jumper or blanket (objects), some money (other data types like integer), but there's also a switch that switches on and off the light in your room (boolean).
 Now, imagine that you take the blanket out of the closet and bring it to the sofa — you have just passed the props! The blanket is the prop from your room to its child, the sofa.
 Let me know whether this analogy works for you!
-2. **Can I deconstruct props in constructor?**
+2. **Can I destruct props in constructor?**
 NO. Constructor gets called in too late. 
 https://stackoverflow.com/questions/38104346/correctly-destructuring-this-props-for-the-whole-component
 3. **What the hell are ternaries?**
