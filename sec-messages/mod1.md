@@ -567,22 +567,25 @@ https://flatiron-school.slack.com/files/UH9S72R6C/F0105SBG1FB/screen_shot_2020-0
 
 ### Github and project week
 
-:ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby:  ALL ABOUT GIT :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby:
-Routine my tech collective follows:
-- everyone is added as a collaborator to the repo;
-- clone the repo; in the repo, have two standard branches: `master` and `dev`;
-- before coding (each time), first run `git pull origin master`, then `git checkout -b nameOfTheFeature-yourName`; every now and then, `push` the code to that new branch;
+:ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby:  LET’S TALK ABOUT GIT :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby:
+I thought I’d share the git workflow my tech collective follows:
+- add everyone as a collaborator to the repo;
+- clone the repo; in the repo, have two standard branches: `main`  (or `master`) and  `dev`;
+- before a coding session (each time), first run `git pull origin main`, then `git checkout -b nameOfTheFeature-yourName`; every now and then, once you’re done and you've added and committed, `git push` the code to that new branch;
 - once the feature is “done” and you checked whether it’s not bugging out, merge it to `dev`;
-- once it’s on the `dev`, your partner checks your code and if it’s okay, they merges it to `master`;
+- once it’s on the `dev`, your partner checks your code and if it’s okay, they merge it to `main`;
 **SO:**
-- `master branch`: ONLY push to this branch if the feature is working + reviewed by both partners
+- `main branch`: ONLY push to this branch if the feature is working + reviewed by both partners
 - `dev branch`: code that works + is up for review (it’s like a pull request?)
 - `feature branch`: code in progress
-We use `git projects` (instead of trello or asana) and git issues. We do stand ups and stand downs every day, where we distribute tasks and give summaries of what has been done.
+We use git projects (instead of trello or asana) and git issues. We do stand ups and stand downs every day, where we distribute tasks and give summaries of what has been done.
 **SOME RESOURCES:**
 - A blog post by my former student on streamlining git add/commit/push: https://medium.com/swlh/creating-new-bash-commands-and-aliases-c9272fd589c4
 - A guide to good commit messages: https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
 - A git cheat-sheet: https://education.github.com/git-cheat-sheet-education.pdf
+PLEASE DO USE MULTIPLE BRANCHES AND NOT ONLY ONE to minimize the risk of overwriting your working code with an accidental commit. Traveling in time with git is possible but it’s not the most pleasurable thing to do with your day.
+@channel
+
 :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: CLI SNACKS :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby: :ruby:
 **SOME RESOURCES:**
 - A cli starter repo, which basically gives you a basic file organization that I created to help students start somewhere :slightly_smiling_face: I also mention some helpful gems, APIs and trick in the README . Sharing in case it’s helpful: https://github.com/sylwiavargas/Ruby-CLI-Setup
@@ -701,3 +704,7 @@ and if you don’t have environment.rb file, you can add it in the runner or jus
 
 ### SQL Injections
 SQL injection and security: the site has a lot of interesting cybersecurity topics, and interactive tutorials https://www.hacksplaining.com/prevention/sql-injection
+
+
+## Additional Resources
+https://flatiron-school.slack.com/archives/C01GZMQKF8Q/p1608754529081100
