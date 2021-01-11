@@ -12,6 +12,23 @@ When you’re done, help out your neighbors! After everyone is set up, we’ll d
 Also, please remember to add your full name and a picture to Slack and just name to your Learn.co profile!
 (please add an emoji if you’ve read this!)
 
+### Git cheat sheet
+@channel  quick git cheatsheet (what Eric has just covered):
+`pwd` - present working directory so you can see in which folder you currently are
+`cd` - change directory (move to the folder)
+`ls`  - list all the files in the folder
+`open .` - open the folder in the finder
+`cd ..` - move to a parent folder
+`mkdir name-name` - creates a new folder
+`learn` - runs the learn test framework
+`learn submit` - submits the lab
+`rspec` - runs test suite (same as learn to some degree; if learn doesn’t work, try this)
+`code .` - opens the current folder in the VS Code
+——- CLONING REPO ——-
+`git clone` - downloads the repo to your local machine
+`cd` to the cloned repo
+`code .` open in VS Code
+
 ### Switching tracks
 Just to reiterate, if you are finished with setting up your environment and the survey, you can start the readings on learn.co. Do not attempt the Deploy on Day 1 lab yet. That has to be done with your table.
 11:19
